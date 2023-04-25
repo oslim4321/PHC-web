@@ -2,6 +2,15 @@
   color: #a7cd53 !important;
 }
 nav ul li a i:hover {
-  /* transform: scale(3) !important; */
-  color: red !important;
+  transform: scale(3) !important;
+  /* color: red !important; */
+}
+.h1Text {
+  color: #8dd574 !important;
+}
+.centerAllItem {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
