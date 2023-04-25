@@ -29,3 +29,9 @@ nav ul li a i:hover {
 .textCol {
   color: #aee1dc !important;
 }
+.moneyPrize {
+  margin-right: -100px;
+}
+.smallText {
+  font-size: 10px;
+}
