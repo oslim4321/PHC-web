@@ -45,3 +45,7 @@ nav ul li a i:hover {
 video {
   border: 10px solid #2e3031 !important;
 }
+
+.runningButton {
+  background-color: #bbb9ba !important;
+}
