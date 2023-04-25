@@ -21,3 +21,11 @@ nav ul li a i:hover {
 .winnersDetails {
   text-align: center;
 }
+
+.prizeBox {
+  background: linear-gradient(to bottom right, #105268, #06303d) !important;
+  /* background-color: red !important; */
+}
+.textCol {
+  color: #aee1dc !important;
+}
