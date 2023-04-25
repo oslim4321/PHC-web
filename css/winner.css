@@ -35,3 +35,13 @@ nav ul li a i:hover {
 .smallText {
   font-size: 10px;
 }
+
+.videoPage {
+  background-color: #0b4052 !important;
+}
+.score {
+  color: #f08e32 !important;
+}
+video {
+  border: 10px solid #2e3031 !important;
+}
