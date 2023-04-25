@@ -14,67 +14,178 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#"> PHC.com </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item mx-2">
-              <a class="nav-link" href="#"
-                ><i class="display-6 bi bi-envelope-check"></i
-              ></a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link" href="#"
-                ><i class="display-6 bi bi-dice-6-fill"></i
-              ></a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link" href="#"
-                ><i class="display-6 bi bi-credit-card-2-front-fill"></i
-              ></a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link" href="#"
-                ><i class="display-6 bi bi-bicycle"></i
-              ></a>
-            </li>
-          </ul>
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <!-- <a class="nav-link" href="#"> Sign up</a> -->
-              <button
-                class="rounded-pill px-5 py-2 text-white border-0 m-2"
-                style="background-color: #1d9dd9"
-              >
-                Sign up
-              </button>
-            </li>
-            <li class="nav-item">
-              <button
-                class="rounded-pill px-5 py-2 text-white border-0 m-2"
-                style="background-color: #1d9dd9"
-              >
-                Sign in
-              </button>
-            </li>
-          </ul>
+    <section id="navBar">
+      <!-- top navbar -->
+      <div class="bg-black text-white">
+        <div class="container mx-auto py-2">
+          <div class="d-flex justify-content-between">
+            <p>Publisher Clearing House</p>
+            <p><a href="">PCH Profile Builder</a></p>
+          </div>
         </div>
       </div>
-    </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+        <div class="container mx-auto">
+          <a class="navbar-brand ml-3 logo" href="#"> PHC.com </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#"
+                  ><i class="display-6 bi bi-envelope-check"></i
+                ></a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#"
+                  ><i class="display-6 bi bi-dice-6-fill"></i
+                ></a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#"
+                  ><i class="display-6 bi bi-credit-card-2-front-fill"></i
+                ></a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#"
+                  ><i class="display-6 bi bi-bicycle"></i
+                ></a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto d-flex align-items-center">
+              <li class="nav-item">
+                <a class="nav-link d-flex flex-row" href="#">
+                  <i class="display-6 bi bi-credit-card-2-front-fill"></i>
+                  <!-- <span>Daily Prize</span> -->
+                </a>
+              </li>
+              <li class="nav-item">
+                <button
+                  class="rounded-pill px-5 py-1 text-white border-0 m-2 lead"
+                  style="background-color: #1d9dd9"
+                >
+                  Sign up
+                </button>
+              </li>
+              <li class="nav-item">
+                <button
+                  class="rounded-pill px-5 py-1 text-white border-0 m-2 lead"
+                  style="background-color: #1d9dd9"
+                >
+                  Register
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- third nav -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavtwo"
+            aria-controls="navbarNavtwo"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNavtwo"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link mx-2 fs-5" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 fs-5" href="#">VIP</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle mx-2 fs-5"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Games
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Adventure</a></li>
+                  <li><a class="dropdown-item" href="#">Puzzle</a></li>
+                  <li><a class="dropdown-item" href="#">Strategy</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">All Games</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link mx-2 fs-5" href="#">Surveys</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 fs-5" href="#">Quizzes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 fs-5" href="#">Slots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 fs-5" href="#">Instant Win</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 fs-5" href="#">Scratch Offs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 fs-5" href="#">Sweeps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 fs-5" href="#">Winners</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 fs-5" href="#">Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 fs-5" href="#">The Good Life</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="heroPage">
+      <!-- <p class="text-grey">Advertisment</p> -->
+      <div class="container mx-auto">
+        <div class="row mx-4">
+          <div class="col-8">
+            <img src="./images/advert1.png" alt="" />
+            <div class="d-flex flex-row justify-content-center mt-2">
+              <img src="./images/PCHlogo.png" alt="" />
+              <img src="./images/winner2 (1).png" alt="" />
+            </div>
+          </div>
+          <div class="col-4 bg-primary">d</div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
