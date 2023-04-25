@@ -15,7 +15,7 @@
 
   <body>
     <section class="bg-dark text-white">
-      <div class="mx-5 my-4">
+      <div class="mx-5 py-4">
         <div class="container cont">
           <p class="lead fw-bold text-white">It's FREE - Enter Now!</p>
           <p class="lead text-light">
@@ -119,7 +119,7 @@
               <input type="text" class="form-control px-2 py-2" />
             </div>
 
-            <div class="form-check">
+            <div class="form-check d-flex align-items-center gap-2">
               <input
                 class="form-check-input"
                 type="checkbox"
@@ -140,22 +140,40 @@
             value=""
             id="flexCheckIndeterminate"
           />
-          <label
-            class="form-check-label text-danger w-50"
-            for="flexCheckIndeterminate"
-          >
-            Yes! I'd like to be informed about chances to win and offers from
-            PCH.com. I know I can unsubscribe at any time.
-          </label>
+          <div class="row">
+            <div class="col-md-6">
+              <label
+                class="form-check-label text-danger"
+                for="flexCheckIndeterminate"
+              >
+                Yes! I'd like to be informed about chances to win and offers
+                from PCH.com. I know I can unsubscribe at any time.
+              </label>
+            </div>
+          </div>
         </div>
         <div class="d-flex justify-content-center">
           <button
             type="button"
-            class="btn btn-primary w-50"
+            class="btn btn-primary w-50 py-3"
             data-bs-toggle="button"
           >
             Toggle button
           </button>
+        </div>
+
+        <div
+          class="lead d-flex flex-wrap justify-content-center gap-4 my-3"
+          for="flexCheckIndeterminate"
+        >
+          <p><a class="text-danger" href="">Privacy Policy</a></p>
+          <p><a class="text-danger" href="">Do Not Sell My Info</a></p>
+          <p>
+            <a class="text-danger" href="">Limit Use of My Sensitive Data</a>
+          </p>
+          <p><a class="text-danger" href="">Terms of Use</a></p>
+          <p><a class="text-danger" href=""> Ad Preferences</a></p>
+          <p><a class="text-danger" href="">Accessibility Statement</a></p>
         </div>
       </div>
     </section>

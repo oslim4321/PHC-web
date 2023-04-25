@@ -7,3 +7,10 @@
   max-width: 800px !important;
   margin: 0 auto !important;
 }
+
+button {
+  background-color: #98be20 !important;
+}
+section {
+  background-color: #220102 !important;
+}
