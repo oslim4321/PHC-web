@@ -5,6 +5,10 @@ nav ul li a i:hover {
   transform: scale(3) !important;
   /* color: red !important; */
 }
+.cont {
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+}
 .h1Text {
   color: #8dd574 !important;
 }
