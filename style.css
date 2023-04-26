@@ -1,8 +1,4 @@
-body {
+* {
   margin: 0 !important;
   padding: 0 !important;
-}
-.cont {
-  max-width: 800px !important;
-  margin: 0 auto !important;
 }
