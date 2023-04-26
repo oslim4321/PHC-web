@@ -33,7 +33,7 @@ nav ul li a i:hover {
   margin-right: -100px;
 }
 .smallText {
-  font-size: 10px;
+  font-size: 10px !important;
 }
 
 .videoPage {
@@ -47,5 +47,8 @@ video {
 }
 
 .runningButton {
+  background-color: #bbb9ba !important;
+}
+.winnerList {
   background-color: #bbb9ba !important;
 }
