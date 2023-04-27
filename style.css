@@ -22,6 +22,9 @@ footer .first {
   width: 100%;
   flex-wrap: wrap;
 }
+footer ul a {
+  color: #ccc !important;
+}
 footer .first div {
   text-align: center;
   margin: 0 5%;
@@ -38,8 +41,12 @@ footer .second {
 footer .second .lv1 {
   border-right: 0.5px white solid;
 }
-footer .second .lv1 span {
-  margin: 0 5px;
+footer .footerEnd {
+  color: #ccc !important;
+}
+footer .second .lv1 a {
+  margin: 5px !important;
+  color: #ccc !important;
 }
 footer .second .lv2 {
   margin: 20px 0;
