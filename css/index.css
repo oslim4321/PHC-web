@@ -3,6 +3,6 @@
   margin: 0 auto !important;
 }
 
-footer {
+footer:nth-child(1) {
   margin-top: 30px !important;
 }
